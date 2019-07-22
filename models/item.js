@@ -4,7 +4,7 @@ const validator = require('validator');
 
 const itemSchema = mongooose.Schema({
 
-    refrerence:
+    reference:
     {
         type: String,
         require: true,
@@ -16,7 +16,7 @@ const itemSchema = mongooose.Schema({
         type: String,
         require: true,
         trim: true,
-        m
+        
     },
     quantite :
     {
@@ -51,7 +51,15 @@ const itemSchema = mongooose.Schema({
         require: true,
         trim: true,
         
+    },
+    photo :
+    {
+        type: String,
+        require: true,
+        trim: true,
+        
     }
+
 
 
 

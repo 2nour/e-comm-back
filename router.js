@@ -8,7 +8,7 @@ var port = "3000";
 
 
 const user= require('./controllers/userController');
-const items =require('./controllers/itemsController')
+const item =require('./controllers/itemsController')
 
 
 app.use(bodyParser.json());
@@ -17,7 +17,7 @@ app.use(cors());
 
 
 app.use('/user',user);
-app.use('/items',items);
+app.use('/item',item);
 
 
 

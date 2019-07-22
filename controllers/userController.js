@@ -4,7 +4,6 @@ const bcrypt = require('bcrypt');
 
 const jwt = require('jsonwebtoken');
 
-const userId = require('mongoose').Types.idUser;
 
 
 
